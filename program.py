@@ -21,3 +21,30 @@ def request_artist_info(artist_name, page):
     data = {'q': artist_name}
     response = requests.get(search_url, data=data, headers=headers)
     return response
+
+
+# Get Genius.com song url's from artist object
+def request_song_url(artist_name, song_cap):
+    page = 1
+    songs = []
+
+    while True:
+        response = request_artist_info(artist_name, page)
+        json = response.json()
+        # Collect up to song_cap song objects from artist
+        song_info = []
+        for hit in json['response']['hits']:
+            if artist_name.lower() in hit['result']['primary_artist']['name'].lower():
+                song_info.append(hit)
+
+        # Collect song URL's from song objects
+        for song in song_info:
+            if (len(songs) < song_cap):
+                url = song['result']['url']
+                songs.append(url)
+
+        if (len(songs) == song_cap):
+            break
+        else:
+            page += 1
+    return songs
