@@ -20,7 +20,8 @@ Quick little bot that runs on a MacOS based system and spams your friend of choi
 <br>
 
 ## Customer Reviews
-
+This program guarantees a 65% chance of getting blocked, and a 100% chance of your friends hating you
+<br>
 ![](https://github.com/shashanklal01/iMessage-Lyric-Bot/blob/main/a.PNG)
 
 ![](https://github.com/shashanklal01/iMessage-Lyric-Bot/blob/main/b.PNG)
