@@ -11,7 +11,7 @@ from py_imessage import imessage
 
 import time
 
-GENIUS_API_TOKEN = 'wvvaQdHGDXnawyXlygwjDpGhq3g69ngO354a2PNwT_3EigNXi4tjtPxm7irTpI--'
+GENIUS_API_TOKEN = 'i removed mine bc this is a public repo lol'
 
 # Get artist object from Genius API
 def request_artist_info(artist_name, page):
