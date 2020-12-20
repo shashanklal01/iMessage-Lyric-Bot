@@ -25,6 +25,6 @@ This program guarantees a 65% chance of getting blocked, and a 100% chance of yo
 <br>
 <br>
 <br>
-![](https://github.com/shashanklal01/iMessage-Lyric-Bot/blob/main/a.PNG)
+![screenshot of my friends hating me pt. 1](https://github.com/shashanklal01/iMessage-Lyric-Bot/blob/main/a.PNG)
 
-![](https://github.com/shashanklal01/iMessage-Lyric-Bot/blob/main/b.PNG)
+![screenshot of my friends hating me pt. 2](https://github.com/shashanklal01/iMessage-Lyric-Bot/blob/main/IMG_5716.PNG)
