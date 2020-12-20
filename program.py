@@ -69,3 +69,16 @@ def write_lyrics_to_file(artist_name, song_count):
     lyrics = scrape_song_lyrics(url[0])
     f.write(lyrics)
     f.close()
+
+
+# opens up the locally stored file with the scraped lyrics
+# and then stores all the words in one huge array and returns
+def get_words():
+    allWords = []
+    with open('lyrics.txt', 'r') as f:
+        text = f.readlines()
+        for line in text:
+            words = line.split()
+            for x in words:
+                allWords.append(x)
+    return allWords
