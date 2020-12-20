@@ -52,31 +52,31 @@ def request_song_url(artist_name, song_cap):
 
 # Scrape lyrics from a Genius.com song URL
 def scrape_song_lyrics(url):
-    page = requests.get(url)
-    html = BeautifulSoup(page.text, 'html.parser')
-    lyrics = html.find('div', class_='lyrics').get_text()
+    cur = requests.get(url)
+    html = BeautifulSoup(cur.text, 'html.parser')
+    scraped = html.find('div', class_='lyrics').get_text()
     # remove identifiers like chorus, verse, etc
-    lyrics = re.sub(r'[\(\[].*?[\)\]]', '', lyrics)
+    scraped = re.sub(r'[\(\[].*?[\)\]]', '', scraped)
     # remove empty lines
-    lyrics = os.linesep.join([s for s in lyrics.splitlines() if s])
-    return lyrics
+    scraped = os.linesep.join([x for x in scraped.splitlines() if x])
+    return scraped
 
 
 # scrapes lyrics using above functions and then writes to local file
 def write_lyrics_to_file(artist_name, song_count):
-    f = open('lyrics.txt', 'w')
+    curFile = open('lyrics.txt', 'w')
     url = request_song_url(artist_name, song_count)
-    lyrics = scrape_song_lyrics(url[0])
-    f.write(lyrics)
-    f.close()
+    scraped = scrape_song_lyrics(url[0])
+    curFile.write(scraped)
+    curFile.close()
 
 
 # opens up the locally stored file with the scraped lyrics
 # and then stores all the words in one huge array and returns
 def get_words():
     allWords = []
-    with open('lyrics.txt', 'r') as f:
-        text = f.readlines()
+    with open('lyrics.txt', 'r') as cur:
+        text = cur.readlines()
         for line in text:
             words = line.split()
             for x in words:
