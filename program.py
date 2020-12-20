@@ -87,3 +87,16 @@ def get_words():
 # runs an applescript that runs a command using my mac applications
 def send_message(phone_number, message):
     os.system('osascript script.scpt {} "{}"'.format(phone_number, message))
+
+
+# main
+if __name__ == '__main__':
+    # put your phone number into the string!
+    # if your number is (123)456-7890, the next line should look like this: phone_number = '1234567890'
+    phone_number = input("what is your friend's number? ")
+    artist = input("which artist do you want to spam your friends with? ")
+    print("\n------ wise choice, let the trouble begin ------\n")
+    write_lyrics_to_file(artist, 1)
+    words = get_words()
+    for word in words:
+        send_message(phone_number, word)
