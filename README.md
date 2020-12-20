@@ -1,7 +1,7 @@
 # iMessage Lyric Bot
 
 Quick little bot that runs on a MacOS based system and spams your friend of choice with the top song of any artist you'd like. Serves them right for not enjoying your favorite artist.
-<br><br>See it in action [here](https://youtu.be/UONcDycg-j8)
+<br><br>See it in action [here]()
 
 <br>
 
@@ -16,7 +16,7 @@ Quick little bot that runs on a MacOS based system and spams your friend of choi
 
 - NOTE: this only works on MacOS systems and on phone numbers associated with iMessage.
 - This program uses the Genius API to find information on the artist of your choice. You will need an API key from their website (which is really not that hard). You can do so [here](https://docs.genius.com/#/getting-started-h1). This key would be placed near the top of ```program.py```
-- I have also used Beautiful Soup, a python library that makes web scraping really easy. If you don't have it installed, you can check it out [here](https://pypi.org/project/beautifulsoup4/).
+- I have also used Beautiful Soup, a python library that makes web scraping really easy. If you don't have it installed, you can check it out [here](https://pypi.org/project/beautifulsoup4/). or [here](https://youtu.be/UONcDycg-j8)
 - And of course, the python ```requests``` library which allows me to make HTTP requests in python. Check it out [here](https://pypi.org/project/requests/).
 - Once you have all of this set up, simply open up the directory for this repository, and type in ``` python3 prank.py``` in your terminal.
 
