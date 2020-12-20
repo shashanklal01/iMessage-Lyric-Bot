@@ -60,3 +60,12 @@ def scrape_song_lyrics(url):
     # remove empty lines
     lyrics = os.linesep.join([s for s in lyrics.splitlines() if s])
     return lyrics
+
+
+# scrapes lyrics using above functions and then writes to local file
+def write_lyrics_to_file(artist_name, song_count):
+    f = open('lyrics.txt', 'w')
+    url = request_song_url(artist_name, song_count)
+    lyrics = scrape_song_lyrics(url[0])
+    f.write(lyrics)
+    f.close()
