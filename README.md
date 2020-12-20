@@ -1,9 +1,7 @@
 # iMessage Lyric Bot
 
 Quick little bot that runs on a MacOS based system and spams your friend of choice with the top song of any artist you'd like. Serves them right for not enjoying your favorite artist.
-<br><br>See it in action:
-- Terminal: [YouTube](https://youtu.be/2JguwIQvIOQ)
-- Phone: [YouTube](https://youtu.be/sgbRZY1NJew)
+<br><br>See it in action [here](https://youtu.be/UONcDycg-j8)
 
 <br>
 
