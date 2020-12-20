@@ -1,13 +1,16 @@
 # iMessage Lyric Bot
 
 Quick little bot that runs on a MacOS based system and spams your friend of choice with the top song of any artist you'd like. Serves them right for not enjoying your favorite artist.
+<br><br>See it in action:<br>
+Terminal: [YouTube](https://youtu.be/2JguwIQvIOQ)<br>
+Phone: [YouTube](https://youtu.be/sgbRZY1NJew)
 
 <br>
 
 ## How it works
 
 - For this to work, it needs permission access to run system commands, since it uses the iMessage app.
-- You'll be asked what number and what artist, and then watch as they end up blocking you.
+- You'll be asked what number and what artist, and then simply sit back and watch as they end up blocking you.
 
 <br>
 
