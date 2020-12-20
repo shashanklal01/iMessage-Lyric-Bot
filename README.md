@@ -15,11 +15,12 @@ Quick little bot that runs on a MacOS based system and spams your friend of choi
 
 - This program uses the Genius API to find information on the artist of your choice. You will need an API key from their website (which is really not that hard). You can do so [here](https://docs.genius.com/#/getting-started-h1). This key would be placed near the top of ```program.py```
 - I have also used Beautiful Soup, a python library that makes web scraping really easy. If you don't have it installed, you can check it out [here](https://pypi.org/project/beautifulsoup4/).
-- And of course, the python ```requests``` library which allows me to make HTTP requests in python.
+- And of course, the python ```requests``` library which allows me to make HTTP requests in python. Check it out [here](https://pypi.org/project/requests/).
 
 <br>
 
 ## Customer Reviews
 
-![](./a.png)
-![](./b.png)
+![](https://github.com/shashanklal01/iMessage-Lyric-Bot/blob/main/a.PNG)
+
+![](https://github.com/shashanklal01/iMessage-Lyric-Bot/blob/main/b.PNG)
