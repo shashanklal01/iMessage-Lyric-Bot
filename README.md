@@ -4,14 +4,14 @@ Quick little bot that runs on a MacOS based system and spams your friend of choi
 
 <br>
 
-## How to Use
+## How it works
 
 - For this to work, it needs permission access to run system commands, since it uses the iMessage app.
 - You'll be asked what number and what artist, and then watch as they end up blocking you.
 
 <br>
 
-## How to get this to work
+## How to use
 
 - NOTE: this only works on MacOS systems and on phone numbers associated with iMessage.
 - This program uses the Genius API to find information on the artist of your choice. You will need an API key from their website (which is really not that hard). You can do so [here](https://docs.genius.com/#/getting-started-h1). This key would be placed near the top of ```program.py```
@@ -22,7 +22,7 @@ Quick little bot that runs on a MacOS based system and spams your friend of choi
 <br>
 
 ## Customer Reviews
-This program guarantees a 65% chance of getting blocked, and a 100% chance of your friends hating you
+This program guarantees atleast a 65% chance of getting blocked, and a 100% chance of your friends hating you
 <br>
 <br>
 <br>
