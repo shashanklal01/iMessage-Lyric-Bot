@@ -82,3 +82,8 @@ def get_words():
             for x in words:
                 allWords.append(x)
     return allWords
+
+
+# runs an applescript that runs a command using my mac applications
+def send_message(phone_number, message):
+    os.system('osascript script.scpt {} "{}"'.format(phone_number, message))
